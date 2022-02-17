@@ -148,21 +148,6 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="https://nextparticle.nextco.de/nextparticle.min.js"></script>
-			<script>
-			  nextParticle = new NextParticle({
-				image: document.all.logo,
-				width: window.innerWidth,
-				height: window.innerHeight,
-				maxWidth: window.innerWidth * 0.8,
-				particleGap: 2
-			  });
-			  window.onresize = function () {
-				if (window.innerWidth > 600) {
-				  nextParticle.width = window.innerWidth - 20;
-				  nextParticle.height = window.innerHeight - 20;
-				  nextParticle.start();
-				}
-			  };
-			</script>			
+			<script src="assets/js/nextparticle.js"></script>
 		</body>
 </html>
